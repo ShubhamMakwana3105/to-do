@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+        <style>
+            .box{
+                
+                height: 20rem;
+                border-radius: 1.1rem;
+                overflow-x: auto;
+                margin: auto;
+                width: 50%;
+                border: 3px solid green;
+                padding: 10px;
+                
+            }
+            .box > input{
+                width: 60%;
+                margin-left: 30px;
+                margin-top: 20px;
+                outline: none;
+                border-right:0px;
+                border-left:0px;
+                border-top:0px;
+            }
+            .box >button{
+                width: 20%;
+                background: transparent;
+                border: transparent;
+            }
+            #container {
+                      margin-left: 30px;
+            }
+        </style>
+<body>
+    <div class="box">
+        <input type="text" id="input" placeholder="Enter Text ">
+        <button id="button">Add</button>
+        <div id="container"></div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
